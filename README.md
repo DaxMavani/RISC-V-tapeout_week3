@@ -12,12 +12,12 @@
 
 ## 🚀 About This Repository  
 This is my **first GitHub repository** created as part of the **VSD SoC Tapeout Program (IIT Gandhinagar)**.  
-Here, I will document my **week-by-week progress** — covering the journey from **RTL design to GDSII flow** in VLSI.  
+Here, I document my **week-by-week progress** — from **RTL design to GDSII flow** in VLSI.  
 
 The goal of this program (and this repo) is to:  
 - Gain **hands-on experience** with RISC-V SoC design.  
 - Learn the **end-to-end physical design flow** of an IC.  
-- Contribute towards the vision of **Viksit Bharat** and the growth of the **Indian Semiconductor Industry**.  
+- Contribute toward the vision of **Viksit Bharat** and the **Indian Semiconductor Mission**.  
 
 ---
 
@@ -33,18 +33,29 @@ The goal of this program (and this repo) is to:
 
 | Day | Focus Area | Description | Status |
 |-----|------------|-------------|--------|
-| **Day 1** | Verilog RTL Design & Synthesis | Learnt the basics of **Verilog RTL design**, performed **simulation with iverilog**, analyzed outputs on **GTKWave**, and synthesized using **Yosys**. | ✅ Done |
-| **Day 2** | Timing Libraries & Coding Styles | Understood **timing libraries**, explored **hierarchical vs flat synthesis**, and studied different **flop coding styles** for efficient design. Hands-on practice using Yosys and GTKWave. | ✅ Done |
-| **Day 3** | Combinational & Sequential Logic Design | Designed and simulated logic circuits (MUX, D-Flip Flop, etc.), synthesized them, and verified timing reports. Strengthened understanding of RTL to netlist flow. | ✅ Done |
+| **Day 1** | Verilog RTL Design & Simulation | Learnt the basics of **Verilog RTL design**, simulated with **iverilog**, analyzed outputs on **GTKWave**, and synthesized using **Yosys**. | ✅ Done |
+| **Day 2** | Timing Libraries & Coding Styles | Understood **timing libraries**, explored **hierarchical vs flat synthesis**, and studied different **flop coding styles** for efficient design. | ✅ Done |
+| **Day 3** | Logic Design Practice | Designed and simulated logic circuits (MUX, D-Flip Flop etc.), synthesized them, and verified timing reports. Strengthened understanding of RTL → Netlist flow. | ✅ Done |
 
 ---
 
-## 📅 Week 2 — (Upcoming)  
-Will cover deeper insights into **timing analysis, constraints, and synthesis optimization**. 🚧  
+## 📅 Week 2 — BabySoC Fundamentals & Functional Modelling  
+
+| Task | Description | Status |
+|------|-------------|--------|
+| **Part 1** | 🧩 **SoC Fundamentals & BabySoC Architecture** | Explored the concept of a **System-on-Chip**, its components (CPU, Memory, Peripherals, Interconnect), and how **BabySoC** demonstrates real-world integration using **RVMYTH (RISC-V core)**, **PLL**, and **DAC**. | ✅ Done |
+| **Part 2** | ⚙️ **Pre-Synthesis Functional Simulation** | Cloned the **VSDBabySoC** repo, compiled Verilog modules with `iverilog`, generated `.vcd` waveforms, and verified correct operation of clock, reset, and dataflow using **GTKWave**. | ✅ Done |
+| **Part 3** | 🧠 **Post-Synthesis Simulation & Validation** | Performed synthesis to obtain gate-level netlist, simulated using `make post_synth_sim`, and verified waveform consistency between RTL and GLS ensuring functional equivalence. | ✅ Done |
+
+**Learning Outcome:**  
+Week 2 solidified understanding of **functional modelling** and **simulation methodologies**.  
+It showcased how the **BabySoC** serves as a bridge between theoretical SoC design and practical implementation — validating both **logic correctness** and **synthesis integrity** before moving toward layout and tapeout.
 
 ---
 
 ## ✨ Closing Note  
-This repository will serve as a **living document** of my Tapeout journey. Each task completed will be updated here with proper documentation, code, and outputs.  
+This repository is a **living document** of my Tapeout journey.  
+Each completed week adds another step toward mastering **open-source VLSI design**.  
 
-*"The best way to learn VLSI is by doing it — one step at a time."*  
+> *“The best way to learn VLSI is by doing it — one step at a time.”*
+
